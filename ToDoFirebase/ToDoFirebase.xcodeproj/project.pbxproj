@@ -11,6 +11,8 @@
 		9F0D6A2F282DF0120080079C /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D6A2E282DF0120080079C /* SignupView.swift */; };
 		9F0D6A31282DF07A0080079C /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D6A30282DF07A0080079C /* BackgroundGradientView.swift */; };
 		9F0D6A33282DF27C0080079C /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D6A32282DF27C0080079C /* LogoView.swift */; };
+		9F0D6A35282DF48F0080079C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D6A34282DF48F0080079C /* CustomTextField.swift */; };
+		9F0D6A38282DF7DA0080079C /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D6A37282DF7DA0080079C /* EmailTextField.swift */; };
 		9F19452C282D548A007C2870 /* ToDoFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19452B282D548A007C2870 /* ToDoFirebaseApp.swift */; };
 		9F19452E282D548A007C2870 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19452D282D548A007C2870 /* ContentView.swift */; };
 		9F194530282D5491007C2870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F19452F282D5491007C2870 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 		9F0D6A2E282DF0120080079C /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		9F0D6A30282DF07A0080079C /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
 		9F0D6A32282DF27C0080079C /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		9F0D6A34282DF48F0080079C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		9F0D6A37282DF7DA0080079C /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		9F194528282D548A007C2870 /* ToDoFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F19452B282D548A007C2870 /* ToDoFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFirebaseApp.swift; sourceTree = "<group>"; };
 		9F19452D282D548A007C2870 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 		9F0D6A2C282DEF9C0080079C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9F0D6A36282DF7B10080079C /* TextFields */,
 				9F0D6A30282DF07A0080079C /* BackgroundGradientView.swift */,
 				9F0D6A32282DF27C0080079C /* LogoView.swift */,
 			);
@@ -79,6 +84,15 @@
 				9F0D6A2E282DF0120080079C /* SignupView.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9F0D6A36282DF7B10080079C /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				9F0D6A34282DF48F0080079C /* CustomTextField.swift */,
+				9F0D6A37282DF7DA0080079C /* EmailTextField.swift */,
+			);
+			path = TextFields;
 			sourceTree = "<group>";
 		};
 		9F19451F282D548A007C2870 = {
@@ -189,6 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0D6A38282DF7DA0080079C /* EmailTextField.swift in Sources */,
+				9F0D6A35282DF48F0080079C /* CustomTextField.swift in Sources */,
 				9F0D6A2F282DF0120080079C /* SignupView.swift in Sources */,
 				9F0D6A33282DF27C0080079C /* LogoView.swift in Sources */,
 				9F0D6A2B282DEF6B0080079C /* LoginView.swift in Sources */,
